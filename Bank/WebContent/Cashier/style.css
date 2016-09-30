@@ -1,0 +1,1962 @@
+body {
+	margin: 0
+}
+
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary
+{
+	display: block
+}
+
+
+optgroup {
+	font-weight: bold
+}
+
+button,input {
+	overflow: visible
+}
+
+button,select {
+	text-transform: none
+}
+
+button,html [type=button],[type=reset],[type=submit] {
+	-webkit-appearance: button
+}
+
+button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner
+	{
+	border-style: none;
+	padding: 0
+}
+
+button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring
+	{
+	outline: 1px dotted ButtonText
+}
+
+fieldset {
+	border: 1px solid #c0c0c0;
+	margin: 0 2px;
+	padding: .35em .625em .75em
+}
+
+legend {
+	color: inherit;
+	display: table;
+	max-width: 100%;
+	padding: 0;
+	white-space: normal
+}
+
+textarea {
+	overflow: auto
+}
+
+[type=checkbox],[type=radio] {
+	padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button
+	{
+	height: auto
+}
+
+[type=search] {
+	-webkit-appearance: textfield;
+	outline-offset: -2px
+}
+
+[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration
+	{
+	-webkit-appearance: none
+}
+
+::-webkit-input-placeholder {
+	color: inherit;
+	opacity: 0.54
+}
+
+::-webkit-file-upload-button {
+	-webkit-appearance: button;
+	font: inherit
+}
+/* End extract from normalize.css */
+html,body {
+	font-family: Verdana, sans-serif;
+	font-size: 15px;
+	line-height: 1.5
+}
+
+html {
+	overflow-x: hidden
+}
+
+h1,h2,h3,h4,h5,h6,.css-slim,.css-wide {
+	font-family: "Segoe UI", Arial, sans-serif
+}
+
+h1 {
+	font-size: 36px
+}
+
+h2 {
+	font-size: 30px
+}
+
+h3 {
+	font-size: 24px
+}
+
+h4 {
+	font-size: 20px
+}
+
+h5 {
+	font-size: 18px
+}
+
+h6 {
+	font-size: 16px
+}
+
+.css-serif {
+	font-family: "Times New Roman", Times, serif
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 400;
+	margin: 10px 0
+}
+
+.css-wide {
+	letter-spacing: 4px
+}
+
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {
+	font-weight: inherit
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid #eee;
+	margin: 20px 0
+}
+
+img {
+	margin-bottom: -5px
+}
+
+a {
+	color: inherit
+}
+
+.css-table,.css-table-all {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	display: table
+}
+
+.css-table-all {
+	border: 1px solid #ccc
+}
+
+.css-bordered tr,.css-table-all tr {
+	border-bottom: 1px solid #ddd
+}
+
+.css-striped tbody tr:nth-child(even) {
+	background-color: #f1f1f1
+}
+
+.css-table-all tr:nth-child(odd) {
+	background-color: #fff
+}
+
+.css-table-all tr:nth-child(even) {
+	background-color: #f1f1f1
+}
+
+.css-hoverable tbody tr:hover,.css-ul.css-hoverable li:hover {
+	background-color: #ccc
+}
+
+.css-centered tr th,.css-centered tr td {
+	text-align: center
+}
+
+.css-table td,.css-table th,.css-table-all td,.css-table-all th {
+	padding: 6px 8px;
+	display: table-cell;
+	text-align: left;
+	vertical-align: top
+}
+
+.css-table th:first-child,.css-table td:first-child,.css-table-all th:first-child,.css-table-all td:first-child
+	{
+	padding-left: 16px
+}
+
+.css-btn,.css-btn-block {
+	border: none;
+	display: inline-block;
+	outline: 0;
+	padding: 6px 16px;
+	vertical-align: middle;
+	overflow: hidden;
+	text-decoration: none !important;
+	color: #fff;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap
+}
+
+.css-disabled,.css-btn:disabled,.css-btn-floating:disabled,.css-btn-floating-large:disabled
+	{
+	cursor: not-allowed;
+	opacity: 0.3
+}
+
+.css-btn.css-disabled *,.css-btn-block.css-disabled,.css-btn-floating.css-disabled *,.css-btn:disabled *,.css-btn-floating:disabled *
+	{
+	pointer-events: none
+}
+
+.css-btn.css-disabled:hover,.css-btn-block.css-disabled:hover,.css-btn:disabled:hover,.css-btn-floating.css-disabled:hover,.css-btn-floating:disabled:hover,.css-btn-floating-large.css-disabled:hover,.css-btn-floating-large:disabled:hover
+	{
+	box-shadow: none
+}
+
+.css-btn:hover,.css-btn-block:hover,.css-btn-floating:hover,.css-btn-floating-large:hover
+	{
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19)
+}
+
+.css-btn-block {
+	width: 100%
+}
+
+.css-btn,.css-btn-floating,.css-btn-floating-large,.css-closenav,.css-opennav
+	{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none
+}
+
+.css-btn-floating,.css-btn-floating-large {
+	display: inline-block;
+	text-align: center;
+	color: #fff;
+	background-color: #000;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	padding: 0;
+	border-radius: 50%;
+	cursor: pointer;
+	font-size: 24px
+}
+
+.css-btn-floating {
+	width: 40px;
+	height: 40px;
+	line-height: 40px
+}
+
+.css-btn-floating-large {
+	width: 56px;
+	height: 56px;
+	line-height: 56px
+}
+
+.css-btn-group .css-btn {
+	float: left
+}
+
+.css-btn-bar .css-btn {
+	box-shadow: none;
+	background-color: inherit;
+	color: inherit;
+	float: left
+}
+
+.css-btn-bar .css-btn:hover {
+	background-color: #ccc
+}
+
+.css-ripple {
+	position: relative;
+	overflow: hidden
+}
+
+.css-ripple:after {
+	content: "";
+	background: #ccc;
+	position: absolute;
+	padding: 300%;
+	bottom: 0;
+	left: 0;
+	opacity: 0;
+	transition: 0.8s
+}
+
+.css-ripple:active:after {
+	padding: 0;
+	opacity: 1;
+	transition: 0s
+}
+
+.css-badge,.css-tag,.css-sign {
+	background-color: #000;
+	color: #fff;
+	display: inline-block;
+	padding-left: 8px;
+	padding-right: 8px;
+	text-align: center
+}
+
+.css-badge {
+	border-radius: 50%
+}
+
+ul.css-ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0
+}
+
+ul.css-ul li {
+	padding: 6px 2px 6px 16px;
+	border-bottom: 1px solid #ddd
+}
+
+ul.css-ul li:last-child {
+	border-bottom: none
+}
+
+.css-tooltip,.css-display-container {
+	position: relative
+}
+
+.css-fluid {
+	max-width: 100%;
+	height: auto
+}
+
+.css-tooltip .css-text {
+	display: none
+}
+
+.css-tooltip:hover .css-text {
+	display: inline-block
+}
+
+.css-navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden
+}
+
+.css-navbar li {
+	float: left
+}
+
+.css-navbar li a,.css-navitem {
+	display: block;
+	padding: 8px 16px
+}
+
+.css-navbar li a:hover {
+	color: #000;
+	background-color: #ccc
+}
+
+.css-navbar .css-dropdown-hover,.css-navbar .css-dropdown-click {
+	position: static
+}
+
+.css-navbar .css-dropdown-hover:hover,.css-navbar .css-dropdown-hover:first-child,.css-navbar .css-dropdown-click:hover
+	{
+	background-color: #ccc;
+	color: #000
+}
+
+.css-navbar a,.css-topnav a,.css-sidenav a,.css-dropdown-content a,.css-accordion-content a,.css-dropnav a
+	{
+	text-decoration: none !important
+}
+
+.css-navbar .css-opennav.css-right {
+	float: right !important
+}
+
+.css-topnav {
+	padding: 8px 8px
+}
+
+.css-topnav a {
+	padding: 0 8px;
+	border-bottom: 3px solid transparent;
+	-webkit-transition: border-bottom .3s;
+	transition: border-bottom .3s
+}
+
+.css-topnav a:hover {
+	border-bottom: 3px solid #fff
+}
+
+.css-topnav .css-dropdown-hover a {
+	border-bottom: 0
+}
+
+.css-opennav,.css-closenav {
+	color: inherit
+}
+
+.css-opennav:hover,.css-closenav:hover {
+	cursor: pointer;
+	opacity: 0.8
+}
+
+.css-btn,.css-btn-floating,.css-dropnav a,.css-btn-floating-large,.css-btn-block,.css-hover-shadow,.css-hover-opacity,.css-hover-opacity-off,.css-navbar a,.css-sidenav a,.css-pagination li a,.css-hoverable tbody tr,.css-hoverable li,.css-accordion-content a,.css-dropdown-content a,.css-dropdown-click:hover,.css-dropdown-hover:hover,.css-opennav,.css-closenav,.css-closebtn,.css-hover-amber,.css-hover-aqua,.css-hover-blue,.css-hover-light-blue,.css-hover-brown,.css-hover-cyan,.css-hover-blue-grey,.css-hover-green,.css-hover-light-green,.css-hover-indigo,.css-hover-khaki,.css-hover-lime,.css-hover-orange,.css-hover-deep-orange,.css-hover-pink,.css-hover-purple,.css-hover-deep-purple,.css-hover-red,.css-hover-sand,.css-hover-teal,.css-hover-yellow,.css-hover-white,.css-hover-black,.css-hover-grey,.css-hover-light-grey,.css-hover-dark-grey,.css-hover-text-amber,.css-hover-text-aqua,.css-hover-text-blue,.css-hover-text-light-blue,.css-hover-text-brown,.css-hover-text-cyan,.css-hover-text-blue-grey,.css-hover-text-green,.css-hover-text-light-green,.css-hover-text-indigo,.css-hover-text-khaki,.css-hover-text-lime,.css-hover-text-orange,.css-hover-text-deep-orange,.css-hover-text-pink,.css-hover-text-purple,.css-hover-text-deep-purple,.css-hover-text-red,.css-hover-text-sand,.css-hover-text-teal,.css-hover-text-yellow,.css-hover-text-white,.css-hover-text-black,.css-hover-text-grey,.css-hover-text-light-grey,.css-hover-text-dark-grey
+	{
+	-webkit-transition: background-color .3s, color .15s, box-shadow .3s,
+		opacity 0.3s;
+	transition: background-color .3s, color .15s, box-shadow .3s, opacity
+		0.3s
+}
+
+.css-sidenav {
+	height: 100%;
+	width: 200px;
+	background-color: #fff;
+	position: fixed !important;
+	z-index: 1;
+	overflow: auto
+}
+
+.css-sidenav a {
+	padding: 4px 2px 4px 16px
+}
+
+.css-sidenav a:hover {
+	background-color: #ccc
+}
+
+.css-sidenav a,.css-dropnav a {
+	display: block
+}
+
+.css-sidenav .css-dropdown-hover:hover,.css-sidenav .css-dropdown-hover:first-child,.css-sidenav .css-dropdown-click:hover,.css-dropnav a:hover
+	{
+	background-color: #ccc;
+	color: #000
+}
+
+.css-sidenav .css-dropdown-hover,.css-sidenav .css-dropdown-click {
+	width: 100%
+}
+
+.css-sidenav .css-dropdown-hover .css-dropdown-content,.css-sidenav .css-dropdown-click .css-dropdown-content
+	{
+	min-width: 100%
+}
+
+.css-main,#main {
+	transition: margin-left .4s
+}
+
+.css-modal {
+	z-index: 3;
+	display: none;
+	padding-top: 100px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.4)
+}
+
+.css-modal-content {
+	margin: auto;
+	background-color: #fff;
+	position: relative;
+	padding: 0;
+	outline: 0;
+	width: 600px
+}
+
+.css-closebtn {
+	text-decoration: none;
+	float: right;
+	font-size: 24px;
+	font-weight: bold;
+	color: inherit
+}
+
+.css-closebtn:hover,.css-closebtn:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer
+}
+
+.css-pagination {
+	display: inline-block;
+	padding: 0;
+	margin: 0
+}
+
+.css-pagination li {
+	display: inline
+}
+
+.css-pagination li a {
+	text-decoration: none;
+	color: #000;
+	float: left;
+	padding: 8px 16px
+}
+
+.css-pagination li a:hover {
+	background-color: #ccc
+}
+
+.css-input-group,.css-group {
+	margin-top: 24px;
+	margin-bottom: 24px
+}
+
+.css-input {
+	padding: 8px;
+	display: block;
+	border: none;
+	border-bottom: 1px solid #808080;
+	width: 100%
+}
+
+.css-label {
+	color: #009688
+}
+
+.css-input:not (:valid )~.css-validate {
+	color: #f44336
+}
+
+.css-select {
+	padding: 9px 0;
+	width: 100%;
+	color: #000;
+	border: 1px solid transparent;
+	border-bottom: 1px solid #009688
+}
+
+.css-select select:focus {
+	color: #000;
+	border: 1px solid #009688
+}
+
+.css-select option[disabled] {
+	color: #009688
+}
+
+.css-dropdown-click,.css-dropdown-hover {
+	position: relative;
+	display: inline-block;
+	cursor: pointer
+}
+
+.css-dropdown-hover:hover .css-dropdown-content {
+	display: block;
+	z-index: 1
+}
+
+.css-dropdown-content {
+	cursor: auto;
+	color: #000;
+	background-color: #fff;
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	margin: 0;
+	padding: 0
+}
+
+.css-dropdown-content a {
+	padding: 6px 16px;
+	display: block
+}
+
+.css-dropdown-content a:hover {
+	background-color: #ccc
+}
+
+.css-accordion {
+	width: 100%;
+	cursor: pointer
+}
+
+.css-accordion-content {
+	cursor: auto;
+	display: none;
+	position: relative;
+	width: 100%;
+	margin: 0;
+	padding: 0
+}
+
+.css-accordion-content a {
+	padding: 6px 16px;
+	display: block
+}
+
+.css-accordion-content a:hover {
+	background-color: #ccc
+}
+
+.css-progress-container {
+	width: 100%;
+	height: 1.5em;
+	position: relative;
+	background-color: #f1f1f1
+}
+
+.css-progressbar {
+	background-color: #757575;
+	height: 100%;
+	position: absolute;
+	line-height: inherit
+}
+
+input[type=checkbox].css-check,input[type=radio].css-radio {
+	width: 24px;
+	height: 24px;
+	position: relative;
+	top: 6px
+}
+
+input[type=checkbox].css-check:checked+.css-validate,input[type=radio].css-radio:checked+.css-validate
+	{
+	color: #009688
+}
+
+input[type=checkbox].css-check:disabled+.css-validate,input[type=radio].css-radio:disabled+.css-validate
+	{
+	color: #aaa
+}
+
+.css-responsive {
+	overflow-x: auto
+}
+
+.css-container:after,.css-panel:after,.css-row:after,.css-row-padding:after,.css-topnav:after,.css-clear:after,.css-btn-group:before,.css-btn-group:after,.css-btn-bar:before,.css-btn-bar:after
+	{
+	content: "";
+	display: table;
+	clear: both
+}
+
+.css-col,.css-half,.css-third,.css-twothird,.css-threequarter,.css-quarter {
+	float: left;
+	width: 100%
+}
+
+.css-col.s1 {
+	width: 8.33333%
+}
+
+.css-col.s2 {
+	width: 16.66666%
+}
+
+.css-col.s3 {
+	width: 24.99999%
+}
+
+.css-col.s4 {
+	width: 33.33333%
+}
+
+.css-col.s5 {
+	width: 41.66666%
+}
+
+.css-col.s6 {
+	width: 49.99999%
+}
+
+.css-col.s7 {
+	width: 58.33333%
+}
+
+.css-col.s8 {
+	width: 66.66666%
+}
+
+.css-col.s9 {
+	width: 74.99999%
+}
+
+.css-col.s10 {
+	width: 83.33333%
+}
+
+.css-col.s11 {
+	width: 91.66666%
+}
+
+.css-col.s12,.css-half,.css-third,.css-twothird,.css-threequarter,.css-quarter
+	{
+	width: 99.99999%
+}
+
+@media only screen and (min-width:601px) {
+	.css-col.m1 {
+		width: 8.33333%
+	}
+	.css-col.m2 {
+		width: 16.66666%
+	}
+	.css-col.m3,.css-quarter {
+		width: 24.99999%
+	}
+	.css-col.m4,.css-third {
+		width: 33.33333%
+	}
+	.css-col.m5 {
+		width: 41.66666%
+	}
+	.css-col.m6,.css-half {
+		width: 49.99999%
+	}
+	.css-col.m7 {
+		width: 58.33333%
+	}
+	.css-col.m8,.css-twothird {
+		width: 66.66666%
+	}
+	.css-col.m9,.css-threequarter {
+		width: 74.99999%
+	}
+	.css-col.m10 {
+		width: 83.33333%
+	}
+	.css-col.m11 {
+		width: 91.66666%
+	}
+	.css-col.m12 {
+		width: 99.99999%
+	}
+}
+
+@media only screen and (min-width:993px) {
+	.css-col.l1 {
+		width: 8.33333%
+	}
+	.css-col.l2 {
+		width: 16.66666%
+	}
+	.css-col.l3,.css-quarter {
+		width: 24.99999%
+	}
+	.css-col.l4,.css-third {
+		width: 33.33333%
+	}
+	.css-col.l5 {
+		width: 41.66666%
+	}
+	.css-col.l6,.css-half {
+		width: 49.99999%
+	}
+	.css-col.l7 {
+		width: 58.33333%
+	}
+	.css-col.l8,.css-twothird {
+		width: 66.66666%
+	}
+	.css-col.l9,.css-threequarter {
+		width: 74.99999%
+	}
+	.css-col.l10 {
+		width: 83.33333%
+	}
+	.css-col.l11 {
+		width: 91.66666%
+	}
+	.css-col.l12 {
+		width: 99.99999%
+	}
+}
+
+.css-content {
+	max-width: 980px;
+	margin: auto
+}
+
+.css-rest {
+	overflow: hidden
+}
+
+.css-hide {
+	display: none !important
+}
+
+.css-show-block,.css-show {
+	display: block !important
+}
+
+.css-show-inline-block {
+	display: inline-block !important
+}
+
+@media ( max-width :600px) {
+	.css-modal-content {
+		margin: 0 10px;
+		width: auto !important
+	}
+	.css-modal {
+		padding-top: 30px
+	}
+}
+
+@media ( max-width :768px) {
+	.css-modal-content {
+		width: 500px
+	}
+	.css-modal {
+		padding-top: 50px
+	}
+}
+
+@media ( min-width :993px) {
+	.css-modal-content {
+		width: 900px
+	}
+}
+
+@media screen and (max-width:600px) {
+	.css-topnav a {
+		display: block
+	}
+	.css-navbar li:not (.css-opennav ){
+		float: none;
+		width: 100% !important
+	}
+	.css-navbar li.css-right {
+		float: none !important
+	}
+}
+
+@media screen and (max-width:600px) {
+	.css-topnav .css-dropdown-hover .css-dropdown-content,.css-navbar .css-dropdown-click .css-dropdown-content,.css-navbar .css-dropdown-hover .css-dropdown-content
+		{
+		position: relative
+	}
+}
+
+@media screen and (max-width:600px) {
+	.css-topnav,.css-navbar {
+		text-align: center
+	}
+}
+
+@media ( max-width :600px) {
+	.css-hide-small {
+		display: none !important
+	}
+}
+
+@media ( max-width :992px) and (min-width:601px) {
+	.css-hide-medium {
+		display: none !important
+	}
+}
+
+@media ( min-width :993px) {
+	.css-hide-large {
+		display: none !important
+	}
+}
+
+@media screen and (max-width:992px) {
+	.css-sidenav.css-collapse {
+		display: none
+	}
+	.css-main {
+		margin-left: 0 !important;
+		margin-right: 0 !important
+	}
+}
+
+@media screen and (min-width:993px) {
+	.css-sidenav.css-collapse {
+		display: block !important
+	}
+}
+
+.css-top,.css-bottom {
+	position: fixed;
+	width: 100%;
+	z-index: 1
+}
+
+.css-top {
+	top: 0
+}
+
+.css-bottom {
+	bottom: 0
+}
+
+.css-overlay {
+	position: fixed;
+	display: none;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 2
+}
+
+.css-left {
+	float: left !important
+}
+
+.css-right {
+	float: right !important
+}
+
+.css-tiny {
+	font-size: 10px !important
+}
+
+.css-small {
+	font-size: 12px !important
+}
+
+.css-medium {
+	font-size: 15px !important
+}
+
+.css-large {
+	font-size: 18px !important
+}
+
+.css-xlarge {
+	font-size: 24px !important
+}
+
+.css-xxlarge {
+	font-size: 36px !important
+}
+
+.css-xxxlarge {
+	font-size: 48px !important
+}
+
+.css-jumbo {
+	font-size: 64px !important
+}
+
+.css-vertical {
+	word-break: break-all;
+	line-height: 1;
+	text-align: center;
+	width: 0.6em
+}
+
+.css-left-align {
+	text-align: left !important
+}
+
+.css-right-align {
+	text-align: right !important
+}
+
+.css-justify {
+	text-align: justify !important
+}
+
+.css-center {
+	text-align: center !important
+}
+
+.css-display-topleft {
+	position: absolute;
+	left: 0;
+	top: 0
+}
+
+.css-display-topright {
+	position: absolute;
+	right: 0;
+	top: 0
+}
+
+.css-display-bottomleft {
+	position: absolute;
+	left: 0;
+	bottom: 0
+}
+
+.css-display-bottomright {
+	position: absolute;
+	right: 0;
+	bottom: 0
+}
+
+.css-display-middle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%)
+}
+
+.css-display-topmiddle {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	text-align: center
+}
+
+.css-display-bottommiddle {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center
+}
+
+.css-circle {
+	border-radius: 50% !important
+}
+
+.css-round-small {
+	border-radius: 2px !important
+}
+
+.css-round,.css-round-medium {
+	border-radius: 4px !important
+}
+
+.css-round-large {
+	border-radius: 8px !important
+}
+
+.css-round-xlarge {
+	border-radius: 16px !important
+}
+
+.css-round-xxlarge {
+	border-radius: 32px !important
+}
+
+.css-round-jumbo {
+	border-radius: 64px !important
+}
+
+.css-border-0 {
+	border: 0 !important
+}
+
+.css-border {
+	border: 1px solid #ccc !important
+}
+
+.css-border-top {
+	border-top: 1px solid #ccc !important
+}
+
+.css-border-bottom {
+	border-bottom: 1px solid #ccc !important
+}
+
+.css-border-left {
+	border-left: 1px solid #ccc !important
+}
+
+.css-border-right {
+	border-right: 1px solid #ccc !important
+}
+
+.css-margin {
+	margin: 16px !important
+}
+
+.css-margin-0 {
+	margin: 0 !important
+}
+
+.css-margin-top {
+	margin-top: 16px !important
+}
+
+.css-margin-bottom {
+	margin-bottom: 16px !important
+}
+
+.css-margin-left {
+	margin-left: 16px !important
+}
+
+.css-margin-right {
+	margin-right: 16px !important
+}
+
+.css-section {
+	margin-top: 16px !important;
+	margin-bottom: 16px !important
+}
+
+.css-padding-tiny {
+	padding: 2px 4px !important
+}
+
+.css-padding-small {
+	padding: 4px 8px !important
+}
+
+.css-padding-medium,.css-padding,.css-form {
+	padding: 8px 16px !important
+}
+
+.css-padding-large {
+	padding: 12px 24px !important
+}
+
+.css-padding-xlarge {
+	padding: 16px 32px !important
+}
+
+.css-padding-xxlarge {
+	padding: 24px 48px !important
+}
+
+.css-padding-jumbo {
+	padding: 32px 64px !important
+}
+
+.css-padding-4 {
+	padding-top: 4px !important;
+	padding-bottom: 4px !important
+}
+
+.css-padding-8 {
+	padding-top: 8px !important;
+	padding-bottom: 8px !important
+}
+
+.css-padding-12 {
+	padding-top: 12px !important;
+	padding-bottom: 12px !important
+}
+
+.css-padding-16 {
+	padding-top: 16px !important;
+	padding-bottom: 16px !important
+}
+
+.css-padding-24 {
+	padding-top: 24px !important;
+	padding-bottom: 24px !important
+}
+
+.css-padding-32 {
+	padding-top: 32px !important;
+	padding-bottom: 32px !important
+}
+
+.css-padding-48 {
+	padding-top: 48px !important;
+	padding-bottom: 48px !important
+}
+
+.css-padding-64 {
+	padding-top: 64px !important;
+	padding-bottom: 64px !important
+}
+
+.css-padding-128 {
+	padding-top: 128px !important;
+	padding-bottom: 128px !important
+}
+
+.css-padding-0 {
+	padding: 0 !important
+}
+
+.css-padding-top {
+	padding-top: 8px !important
+}
+
+.css-padding-bottom {
+	padding-bottom: 8px !important
+}
+
+.css-padding-left {
+	padding-left: 16px !important
+}
+
+.css-padding-right {
+	padding-right: 16px !important
+}
+
+.css-topbar {
+	border-top: 6px solid #ccc !important
+}
+
+.css-bottombar {
+	border-bottom: 6px solid #ccc !important
+}
+
+.css-leftbar {
+	border-left: 6px solid #ccc !important
+}
+
+.css-rightbar {
+	border-right: 6px solid #ccc !important
+}
+
+.css-row-padding,.css-row-padding>.css-half,.css-row-padding>.css-third,.css-row-padding>.css-twothird,.css-row-padding>.css-threequarter,.css-row-padding>.css-quarter,.css-row-padding>.css-col
+	{
+	padding: 0 8px
+}
+
+.css-spin {
+	animation: css-spin 2s infinite linear;
+	-webkit-animation: css-spin 2s infinite linear
+}
+
+@
+-webkit-keyframes css-spin { 0%{
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg)
+}
+
+100%{
+-webkit-transform
+:rotate(359deg)
+;transform
+:rotate(359deg)
+}
+}
+@
+keyframes css-spin { 0%{
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg)
+}
+
+100%{
+-webkit-transform
+:rotate(359deg)
+;transform
+:rotate(359deg)
+}
+}
+.css-container {
+	padding: 0.01em 16px
+}
+
+.css-panel {
+	padding: 0.01em 16px;
+	margin-top: 16px !important;
+	margin-bottom: 16px !important
+}
+
+.css-example {
+	background-color: #f1f1f1;
+	padding: 0.01em 16px
+}
+
+.css-code,.css-codespan {
+	font-family: Consolas, "courier new";
+	font-size: 16px
+}
+
+.css-code {
+	line-height: 1.4;
+	width: auto;
+	background-color: #fff;
+	padding: 8px 12px;
+	border-left: 4px solid #009688;
+	word-wrap: break-word
+}
+
+.css-codespan {
+	color: crimson;
+	background-color: #f1f1f1;
+	padding-left: 4px;
+	padding-right: 4px;
+	font-size: 110%
+}
+
+.css-example,.css-code,.css-reference {
+	margin: 20px 0
+}
+
+.css-card {
+	border: 1px solid #ccc
+}
+
+.css-card-2,.css-example {
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0
+		rgba(0, 0, 0, 0.12) !important
+}
+
+.css-card-4,.css-hover-shadow:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19) !important
+}
+
+.css-card-8 {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19) !important
+}
+
+.css-card-12 {
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0
+		rgba(0, 0, 0, 0.19) !important
+}
+
+.css-card-16 {
+	box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0
+		rgba(0, 0, 0, 0.21) !important
+}
+
+.css-card-24 {
+	box-shadow: 0 24px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0
+		rgba(0, 0, 0, 0.22) !important
+}
+
+.css-animate-fading {
+	-webkit-animation: fading 10s infinite;
+	animation: fading 10s infinite
+}
+
+@
+-webkit-keyframes fading { 0%{
+	opacity: 0
+}
+
+50%{
+opacity
+:
+1
+}
+100%{
+opacity
+:
+0
+}
+}
+@
+keyframes fading { 0%{
+	opacity: 0
+}
+
+50%{
+opacity
+:
+1
+}
+100%{
+opacity
+:
+0
+}
+}
+.css-animate-opacity {
+	-webkit-animation: opac 1.5s;
+	animation: opac 1.5s
+}
+
+@
+-webkit-keyframes opac {
+	from {opacity: 0
+}
+
+to {
+	opacity: 1
+}
+
+}
+@
+keyframes opac {
+	from {opacity: 0
+}
+
+to {
+	opacity: 1
+}
+
+}
+.css-animate-top {
+	position: relative;
+	-webkit-animation: animatetop 0.4s;
+	animation: animatetop 0.4s
+}
+
+@
+-webkit-keyframes animatetop {
+	from {top: -300px;
+	opacity: 0
+}
+
+to {
+	top: 0;
+	opacity: 1
+}
+
+}
+@
+keyframes animatetop {
+	from {top: -300px;
+	opacity: 0
+}
+
+to {
+	top: 0;
+	opacity: 1
+}
+
+}
+.css-animate-left {
+	position: relative;
+	-webkit-animation: animateleft 0.4s;
+	animation: animateleft 0.4s
+}
+
+@
+-webkit-keyframes animateleft {
+	from {left: -300px;
+	opacity: 0
+}
+
+to {
+	left: 0;
+	opacity: 1
+}
+
+}
+@
+keyframes animateleft {
+	from {left: -300px;
+	opacity: 0
+}
+
+to {
+	left: 0;
+	opacity: 1
+}
+
+}
+.css-animate-right {
+	position: relative;
+	-webkit-animation: animateright 0.4s;
+	animation: animateright 0.4s
+}
+
+@
+-webkit-keyframes animateright {
+	from {right: -300px;
+	opacity: 0
+}
+
+to {
+	right: 0;
+	opacity: 1
+}
+
+}
+@
+keyframes animateright {
+	from {right: -300px;
+	opacity: 0
+}
+
+to {
+	right: 0;
+	opacity: 1
+}
+
+}
+.css-animate-bottom {
+	position: relative;
+	-webkit-animation: animatebottom 0.4s;
+	animation: animatebottom 0.4s
+}
+
+@
+-webkit-keyframes animatebottom {
+	from {bottom: -300px;
+	opacity: 0
+}
+
+to {
+	bottom: 0px;
+	opacity: 1
+}
+
+}
+@
+keyframes animatebottom {
+	from {bottom: -300px;
+	opacity: 0
+}
+
+to {
+	bottom: 0;
+	opacity: 1
+}
+
+}
+.css-animate-zoom {
+	-webkit-animation: animatezoom 0.6s;
+	animation: animatezoom 0.6s
+}
+
+@
+-webkit-keyframes animatezoom {
+	from {-webkit-transform: scale(0)
+}
+
+to {
+	-webkit-transform: scale(1)
+}
+
+}
+@
+keyframes animatezoom {
+	from {transform: scale(0)
+}
+
+to {
+	transform: scale(1)
+}
+
+}
+.css-animate-input {
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out
+}
+
+.css-animate-input:focus {
+	width: 100% !important
+}
+
+.css-opacity,.css-hover-opacity:hover {
+	opacity: 0.60;
+	filter: alpha(opacity = 60);
+	-webkit-backface-visibility: hidden
+}
+
+.css-opacity-off,.css-hover-opacity-off:hover {
+	opacity: 1;
+	filter: alpha(opacity = 100);
+	-webkit-backface-visibility: hidden
+}
+
+.css-text-shadow {
+	text-shadow: 1px 1px 0 #444
+}
+
+.css-text-shadow-white {
+	text-shadow: 1px 1px 0 #ddd
+}
+
+.css-transparent {
+	background-color: transparent !important
+}
+
+.css-hover-none:hover {
+	box-shadow: none !important;
+	background-color: transparent !important
+}
+/* Start of colors */
+.css-amber,.css-hover-amber:hover {
+	color: #000 !important;
+	background-color: #ffc107 !important
+}
+
+.css-aqua,.css-hover-aqua:hover {
+	color: #000 !important;
+	background-color: #00ffff !important
+}
+
+.css-blue,.css-hover-blue:hover {
+	color: #fff !important;
+	background-color: #2196F3 !important
+}
+
+.css-light-blue,.css-hover-light-blue:hover {
+	color: #000 !important;
+	background-color: #87CEEB !important
+}
+
+.css-brown,.css-hover-brown:hover {
+	color: #fff !important;
+	background-color: #795548 !important
+}
+
+.css-cyan,.css-hover-cyan:hover {
+	color: #000 !important;
+	background-color: #00bcd4 !important
+}
+
+.css-blue-grey,.css-hover-blue-grey:hover {
+	color: #fff !important;
+	background-color: #607d8b !important
+}
+
+.css-green,.css-hover-green:hover {
+	color: #fff !important;
+	background-color: #4CAF50 !important
+}
+
+.css-light-green,.css-hover-light-green:hover {
+	color: #000 !important;
+	background-color: #8bc34a !important
+}
+
+.css-indigo,.css-hover-indigo:hover {
+	color: #fff !important;
+	background-color: #3f51b5 !important
+}
+
+.css-khaki,.css-hover-khaki:hover {
+	color: #000 !important;
+	background-color: #f0e68c !important
+}
+
+.css-lime,.css-hover-lime:hover {
+	color: #000 !important;
+	background-color: #cddc39 !important
+}
+
+.css-orange,.css-hover-orange:hover {
+	color: #000 !important;
+	background-color: #ff9800 !important
+}
+
+.css-deep-orange,.css-hover-deep-orange:hover {
+	color: #fff !important;
+	background-color: #ff5722 !important
+}
+
+.css-pink,.css-hover-pink:hover {
+	color: #fff !important;
+	background-color: #e91e63 !important
+}
+
+.css-purple,.css-hover-purple:hover {
+	color: #fff !important;
+	background-color: #9c27b0 !important
+}
+
+.css-deep-purple,.css-hover-deep-purple:hover {
+	color: #fff !important;
+	background-color: #673ab7 !important
+}
+
+.css-red,.css-hover-red:hover {
+	color: #fff !important;
+	background-color: #f44336 !important
+}
+
+.css-sand,.css-hover-sand:hover {
+	color: #000 !important;
+	background-color: #fdf5e6 !important
+}
+
+.css-teal,.css-hover-teal:hover {
+	color: #fff !important;
+	background-color: #009688 !important
+}
+
+.css-yellow,.css-hover-yellow:hover {
+	color: #000 !important;
+	background-color: #ffeb3b !important
+}
+
+.css-white,.css-hover-white:hover {
+	color: #000 !important;
+	background-color: #fff !important
+}
+
+.css-black,.css-hover-black:hover {
+	color: #fff !important;
+	background-color: #000 !important
+}
+
+.css-grey,.css-hover-grey:hover {
+	color: #000 !important;
+	background-color: #9e9e9e !important
+}
+
+.css-light-grey,.css-hover-light-grey:hover {
+	color: #000 !important;
+	background-color: #f1f1f1 !important
+}
+
+.css-dark-grey,.css-hover-dark-grey:hover {
+	color: #fff !important;
+	background-color: #616161 !important
+}
+
+.css-pale-red,.css-hover-pale-red:hover {
+	color: #000 !important;
+	background-color: #ffdddd !important
+}
+
+.css-pale-green,.css-hover-pale-green:hover {
+	color: #000 !important;
+	background-color: #ddffdd !important
+}
+
+.css-pale-yellow,.css-hover-pale-yellow:hover {
+	color: #000 !important;
+	background-color: #ffffcc !important
+}
+
+.css-pale-blue,.css-hover-pale-blue:hover {
+	color: #000 !important;
+	background-color: #ddffff !important
+}
+
+.css-text-amber,.css-hover-text-amber:hover {
+	color: #ffc107 !important
+}
+
+.css-text-aqua,.css-hover-text-aqua:hover {
+	color: #00ffff !important
+}
+
+.css-text-blue,.css-hover-text-blue:hover {
+	color: #2196F3 !important
+}
+
+.css-text-light-blue,.css-hover-text-light-blue:hover {
+	color: #87CEEB !important
+}
+
+.css-text-brown,.css-hover-text-brown:hover {
+	color: #795548 !important
+}
+
+.css-text-cyan,.css-hover-text-cyan:hover {
+	color: #00bcd4 !important
+}
+
+.css-text-blue-grey,.css-hover-text-blue-grey:hover {
+	color: #607d8b !important
+}
+
+.css-text-green,.css-hover-text-green:hover {
+	color: #4CAF50 !important
+}
+
+.css-text-light-green,.css-hover-text-light-green:hover {
+	color: #8bc34a !important
+}
+
+.css-text-indigo,.css-hover-text-indigo:hover {
+	color: #3f51b5 !important
+}
+
+.css-text-khaki,.css-hover-text-khaki:hover {
+	color: #b4aa50 !important
+}
+
+.css-text-lime,.css-hover-text-lime:hover {
+	color: #cddc39 !important
+}
+
+.css-text-orange,.css-hover-text-orange:hover {
+	color: #ff9800 !important
+}
+
+.css-text-deep-orange,.css-hover-text-deep-orange:hover {
+	color: #ff5722 !important
+}
+
+.css-text-pink,.css-hover-text-pink:hover {
+	color: #e91e63 !important
+}
+
+.css-text-purple,.css-hover-text-purple:hover {
+	color: #9c27b0 !important
+}
+
+.css-text-deep-purple,.css-hover-text-deep-purple:hover {
+	color: #673ab7 !important
+}
+
+.css-text-red,.css-hover-text-red:hover {
+	color: #f44336 !important
+}
+
+.css-text-sand,.css-hover-text-sand:hover {
+	color: #fdf5e6 !important
+}
+
+.css-text-teal,.css-hover-text-teal:hover {
+	color: #009688 !important
+}
+
+.css-text-yellow,.css-hover-text-yellow:hover {
+	color: #d2be0e !important
+}
+
+.css-text-white,.css-hover-text-white:hover {
+	color: #fff !important
+}
+
+.css-text-black,.css-hover-text-black:hover {
+	color: #000 !important
+}
+
+.css-text-grey,.css-hover-text-grey:hover {
+	color: #757575 !important
+}
+
+.css-text-light-grey,.css-hover-text-light-grey:hover {
+	color: #f1f1f1 !important
+}
+
+.css-text-dark-grey,.css-hover-text-dark-grey:hover {
+	color: #3a3a3a !important
+}
+
+.css-border-amber,.css-hover-border-amber:hover {
+	border-color: #ffc107 !important
+}
+
+.css-border-aqua,.css-hover-border-aqua:hover {
+	border-color: #00ffff !important
+}
+
+.css-border-blue,.css-hover-border-blue:hover {
+	border-color: #2196F3 !important
+}
+
+.css-border-light-blue,.css-hover-border-light-blue:hover {
+	border-color: #87CEEB !important
+}
+
+.css-border-brown,.css-hover-border-brown:hover {
+	border-color: #795548 !important
+}
+
+.css-border-cyan,.css-hover-border-cyan:hover {
+	border-color: #00bcd4 !important
+}
+
+.css-border-blue-grey,.css-hover-blue-grey:hover {
+	border-color: #607d8b !important
+}
+
+.css-border-green,.css-hover-border-green:hover {
+	border-color: #4CAF50 !important
+}
+
+.css-border-light-green,.css-hover-border-light-green:hover {
+	border-color: #8bc34a !important
+}
+
+.css-border-indigo,.css-hover-border-indigo:hover {
+	border-color: #3f51b5 !important
+}
+
+.css-border-khaki,.css-hover-border-khaki:hover {
+	border-color: #f0e68c !important
+}
+
+.css-border-lime,.css-hover-border-lime:hover {
+	border-color: #cddc39 !important
+}
+
+.css-border-orange,.css-hover-border-orange:hover {
+	border-color: #ff9800 !important
+}
+
+.css-border-deep-orange,.css-hover-border-deep-orange:hover {
+	border-color: #ff5722 !important
+}
+
+.css-border-pink,.css-hover-border-pink:hover {
+	border-color: #e91e63 !important
+}
+
+.css-border-purple,.css-hover-border-purple:hover {
+	border-color: #9c27b0 !important
+}
+
+.css-border-deep-purple,.css-hover-border-deep-purple:hover {
+	border-color: #673ab7 !important
+}
+
+.css-border-red,.css-hover-border-red:hover {
+	border-color: #f44336 !important
+}
+
+.css-border-sand,.css-hover-border-sand:hover {
+	border-color: #fdf5e6 !important
+}
+
+.css-border-teal,.css-hover-border-teal:hover {
+	border-color: #009688 !important
+}
+
+.css-border-yellow,.css-hover-border-yellow:hover {
+	border-color: #ffeb3b !important
+}
+
+.css-border-white,.css-hover-border-white:hover {
+	border-color: #fff !important
+}
+
+.css-border-black,.css-hover-border-black:hover {
+	border-color: #000 !important
+}
+
+.css-border-grey,.css-hover-border-grey:hover {
+	border-color: #9e9e9e !important
+}
+
+.css-border-light-grey,.css-hover-border-light-grey:hover {
+	border-color: #f1f1f1 !important
+}
+
+.css-border-dark-grey,.css-hover-border-dark-grey:hover {
+	border-color: #616161 !important
+}
+
+.css-border-pale-red,.css-hover-border-pale-red:hover {
+	border-color: #ffe7e7 !important
+}
+
+.css-border-pale-green,.css-hover-border-pale-green:hover {
+	border-color: #e7ffe7 !important
+}
+
+.css-border-pale-yellow,.css-hover-border-pale-yellow:hover {
+	border-color: #ffffcc !important
+}
+
+.css-border-pale-blue,.css-hover-border-pale-blue:hover {
+	border-color: #e7ffff !important
+}
